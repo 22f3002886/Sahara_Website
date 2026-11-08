@@ -15,6 +15,12 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: #faf8f5;
     color: #1c1917;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
   }
 
   ::selection {
@@ -27,6 +33,21 @@
     outline: 2px solid #863c0d;
     outline-offset: 2px;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @media (prefers-reduced-motion: reduce) {

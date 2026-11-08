@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col bg-warm-50 text-stone-900 selection:bg-sahara-200 selection:text-sahara-900">
       <Header />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full focus:outline-none">
         <Hero />
         <About />
         <Events />
