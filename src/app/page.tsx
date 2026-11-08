@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Events from "@/components/Events";
 import Gallery from "@/components/Gallery";
 import Team from "@/components/Team";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
         <Events />
         <Gallery />
         <Team />
+        <Contact />
       </main>
     </div>
   );
