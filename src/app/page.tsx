@@ -5,10 +5,11 @@ import Events from "@/components/Events";
 import Gallery from "@/components/Gallery";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen flex flex-col bg-warm-50 text-stone-900">
+    <div className="min-h-screen flex flex-col bg-warm-50 text-stone-900 selection:bg-sahara-200 selection:text-sahara-900">
       <Header />
       <main className="flex-1 w-full">
         <Hero />
@@ -18,6 +19,7 @@ export default function HomePage() {
         <Team />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
