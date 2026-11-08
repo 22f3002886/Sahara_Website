@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Events from "@/components/Events";
 import Team from "@/components/Team";
 
 export default function HomePage() {
@@ -10,6 +11,7 @@ export default function HomePage() {
       <main className="flex-1 w-full">
         <Hero />
         <About />
+        <Events />
         <Team />
       </main>
     </div>
